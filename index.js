@@ -9,6 +9,11 @@ function takeANumber(ralphDeliLine){
   return `Welcome, you are number ${count}`;
 }
 
+console.log(takeANumber(ralphDeliLine))
+console.log(takeANumber(ralphDeliLine))
+console.log(takeANumber(ralphDeliLine))
+console.log(takeANumber(ralphDeliLine))
+
 function nowServing(ralphDeliLine){
   if(ralphDeliLine.length === 0){
     return "There is nobody waiting to be served!";
