@@ -27,5 +27,7 @@ function currentLine(ralphDeliLine){
   }
 }
 
+currentLine(["Michael", "Sarah", "Jonathan"])
+
 
 
