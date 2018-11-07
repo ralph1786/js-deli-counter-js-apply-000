@@ -3,7 +3,7 @@ let ralphDeliLine = [];
 
 function takeANumber(ralphDeliLine){
     //Following line will add customer to end of array using the push method.
-  var count = 1
+  var count = 0
   count++
   ralphDeliLine.push(count);
   return `Welcome, you are number ${count}`;
