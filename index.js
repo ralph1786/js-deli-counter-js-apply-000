@@ -1,13 +1,12 @@
 //Following empty array represents the number of customers when deli opens.
 let ralphDeliLine = [];
 
-function takeANumber(ralphDeliLine, number){
+function takeANumber(ralphDeliLine){
     //Following line will add customer to end of array using the push method.
-    for(let i=1; i < 99; i++){
-      return `Welcome, you are number ${i}`;
-    }
-  ralphDeliLine.push(number);
-  return `Welcome, you are number ${number}`;
+  var count = 1
+  count++
+  ralphDeliLine.push(count);
+  return `Welcome, you are number ${count}`;
 }
 
 function nowServing(ralphDeliLine){
