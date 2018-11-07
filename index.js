@@ -27,8 +27,8 @@ function currentLine(ralphDeliLine){
   }
 }
 
-console.log(currentLine(["Michael", "Sarah", "Jonathan"]))
-console.log(currentLine(["Alex", "Tom", "Avery"]))
+//console.log(currentLine(["Michael", "Sarah", "Jonathan"]))
+//console.log(currentLine(["Alex", "Tom", "Avery"]))
 
 
 
