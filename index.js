@@ -16,8 +16,8 @@ function nowServing(ralphDeliLine){
   }
 }
 
+let customerLine = [];
 function currentLine(ralphDeliLine){
-  let customerLine = [];
   for(let i = 0; i < ralphDeliLine.length; i++){
     customerLine.push(' '+ [i + 1] +'. ' + ralphDeliLine[i]);
   }if(ralphDeliLine.length === 0){
